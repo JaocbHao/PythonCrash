@@ -1,0 +1,192 @@
+cars = ['audi', 'bmw', 'subaru', 'toyota']
+
+for car in cars:
+  if car == 'bmw':
+    print(car.upper())
+  else:
+    print(car.title())
+
+print("-----------------------------------")
+
+car2 = 'bmw'
+if car2 == 'bmw':
+  print("True")
+else:
+  print("false")
+
+car3 = 'audi'
+if car3 == 'bmw':
+  print("True")
+else:
+  print("False")
+
+print("-----------------------------------")
+
+car4 = 'Audi'
+if car4 == 'audi':
+  print("True")
+else:
+  print("False")
+
+if car4.lower() == 'audi':
+  print("True")
+else:
+  print("False")
+
+print(car4)
+
+print("-----------------------------------")
+
+req_top = 'mushrooms'
+
+if req_top != 'anchovies':
+  print("Hold the anchovies!")
+
+print("-----------------------------------")
+
+ans = 21
+
+if ans != 42:
+  print("That is not the correct answer. Please try again!")
+
+print("-----------------------------------")
+
+age = 19
+if age < 21:
+  print("True")
+if age > 21:
+  print("False")
+if age >= 21:
+  print("False")
+
+print("-----------------------------------")
+
+age0 = 22
+age1 = 21
+if age0 >= 21 and age1 >= 21:
+  print("False")
+
+age1 = 22
+if age0 >= 21 and age1 >= 21:
+  print("True")
+
+print("-----------------------------------")
+
+age2 = 22
+age3 = 18
+if age2 >= 21 or age3 >= 21:
+  print("True")
+
+age4 = 18
+age5 = 18
+if age4 >= 21 or age5 >= 21:
+  print("True")
+else:
+  print("False")
+
+print("-----------------------------------")
+
+req_top2 = ['mushrooms', 'onions', 'pineapple']
+if 'mushrooms' in req_top2:
+  print("True")
+if 'pepperoni' in req_top2:
+  print("True")
+else:
+  print("False")
+
+print("-----------------------------------")
+
+banned_users = ['andrew', 'carolina', 'david']
+user = 'marie'
+if user not in banned_users:
+ print(user.title() + ", you can post a response if you wish.")
+
+print("-----------------------------------")
+
+age6 = 19
+if age6 >= 18:
+ print("You are old enough to enter this site.")
+ print("Are you sure you wish to continue to the site?")
+
+print("-----------------------------------")
+
+age7 = 17
+if age7 >= 18:
+  print("You are old enough to enter this site.")
+  print("Are you sure you wish to continue to the site?")
+else:
+  print("Sorry, you are not old enough to enter.")
+  print("Come back once you turn 18!")
+
+print("-----------------------------------")
+
+age8 = 12
+if age8 < 4:
+ print("Your admission cost is $0.")
+elif age8 < 18:
+ print("Your admission cost is $5.")
+else:
+ print("Your admission cost is $10.")
+
+print("-----------------------------------")
+
+age9 = 34
+if age9 < 4:
+ price = 0
+elif age9 < 18:
+ price = 5
+elif age9 < 65:
+ price = 10
+else:
+ price = 5
+print("Your admission cost is $" + str(price) + ".")
+
+print("-----------------------------------")
+
+req_top3 = ['mushrooms', 'extra cheese']
+if 'mushrooms' in req_top3:
+ print("Adding mushrooms.")
+if 'pepperoni' in req_top3:
+ print("Adding pepperoni.")
+if 'extra cheese' in req_top3:
+ print("Adding extra cheese.")
+
+print("\nFinished making your pizza!")
+
+print("-----------------------------------")
+
+requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+for requested_topping in requested_toppings:
+  if requested_topping == 'green peppers':
+    print("Sorry, we are out of green peppers right now.")
+  else:
+    print("Adding " + requested_topping + ".")
+
+print("\nFinished making your pizza!")
+
+print("-----------------------------------")
+
+requested_toppings = []
+
+if requested_toppings:
+ for requested_topping in requested_toppings:
+    print("Adding " + requested_topping + ".")
+ print("\nFinished making your pizza!")
+else:
+ print("Are you sure you want a plain pizza?")
+
+print("-----------------------------------")
+
+available_toppings = ['mushrooms', 'olives', 'green peppers',
+'pepperoni', 'pineapple', 'extra cheese']
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+
+for requested_topping in requested_toppings:
+  if requested_topping in available_toppings:
+    print("Adding " + requested_topping + ".")
+else:
+ print("Sorry, we don't have " + requested_topping + ".")
+
+print("\nFinished making your pizza!")
+
+print("-----------------------------------")
