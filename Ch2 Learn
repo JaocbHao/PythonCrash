@@ -1,0 +1,26 @@
+message = "Hello Python Wrold!"
+print(message);
+
+message = "Hello PCC World!"
+print(message);
+
+name = "Beixi Hao"
+print(name.title());
+print(name.upper());
+print(name.lower());
+
+fn = "Beixi"
+ln = "Hao"
+fulln = fn + " " + ln
+print(fulln);
+
+print("Hello, " + fulln.title() + "!");
+
+message2 = "Hello, " + fulln.title() + "!"
+print(message2);
+
+print("Languages:\n\tPython\n\tC\n\tHTML");
+
+age = 22
+message3 = "Happy " + str(age) + "nd Birthday!"
+print(message3);
